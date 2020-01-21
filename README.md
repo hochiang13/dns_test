@@ -8,5 +8,7 @@ Notes on dig output
 
 Flag of aa means the nameserver asked is the authority of the domain name queried by dig.
 
+Flag of ra means the nameserver accepts recursive query.
+
 if ANSWER: 0, that means no IP address is found for this domain name.
 
