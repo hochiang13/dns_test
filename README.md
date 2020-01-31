@@ -1,7 +1,8 @@
 Introduction
 ============
 
-Bash script to test DNS nameserver with dig. Run a loop that runs dig every 2 seconds, and append output to test_output.txt if a string can be found in the output of dig.
+Bash script and python program to test DNS nameserver with dig. Run a loop that runs dig every 1 seconds, and append output to test_output.txt.
+Python program will parse the output file, and put it into histograms.
 
 Notes on dig output
 -------------------
